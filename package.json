@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-runkit-code",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Interation with runkit.com",
   "main": "index.js",
   "repository": {
