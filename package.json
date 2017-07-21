@@ -1,0 +1,8 @@
+{
+  "name": "gitbook-plugin-runkit-code",
+  "version": "0.0.1",
+  "description": "Interation with runkit.com",
+  "engines": {
+    "gitbook": ">1.x.x"
+  }
+}
