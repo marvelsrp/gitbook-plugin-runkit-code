@@ -1,8 +1,21 @@
 {
   "name": "gitbook-plugin-runkit-code",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Interation with runkit.com",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marvelsrp/gitbook-plugin-runkit-code.git"
+  },
+  "keywords": [
+    "gitbook",
+    "runkit"
+  ],
   "engines": {
-    "gitbook": ">1.x.x"
-  }
+    "gitbook": ">=3.x.x"
+  },
+  "gitbook": {
+    "properties": {}
+  },
+  "dependencies": {}
 }
