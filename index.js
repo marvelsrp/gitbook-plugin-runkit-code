@@ -4,11 +4,6 @@ module.exports = {
     "page": function(page) {
       page.content += '<script src="https://embed.runkit.com" data-element-id="runkit"></' + 'script>';
       return page;
-    },
-    "page:before": function(page) {
-      console.log('page', page);
-      // page.content = "# Title\n" +page.content;
-      return page;
     }
   },
 
