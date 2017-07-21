@@ -1,20 +1,16 @@
 module.exports = {
-  // Map of hooks
   hooks: {
     "page": function(page) {
-      page.content += '<script src="https://embed.runkit.com" data-element-id="runkit"></' + 'script>';
+      page.content += '<script src="https://embed.runkit.com" data-element-id="runkit-code"></' + 'script>';
       return page;
     }
   },
-
-  // Map of new blocks
   blocks: {
-    "runkit": function(page) {
-      page.content = page.content.replace("<runkit>", "<div id=\"runkit\">");
-      return page;
+    runkit: {
+      process: function(block) {
+        return '<div id="runkit-code" >' + block.body + '</div>';
+      }
     }
-  },
 
-  // Map of new filters
-  filters: {}
+  }
 };
