@@ -1,5 +1,7 @@
-# gitbook-plugin-runkit-code
+# gitbook-plugin-runkit-code <font color="red">[DEPRECATED package]</font> use gitbook-plugin-runkit instead.
 ## Embed runkit in GitBook
+
+
 This GitBook plugins makes it easy to embed runkit notebook in a GitBook.
 
 ## How to use it? ##
